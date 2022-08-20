@@ -6,6 +6,9 @@ public class caluculator {
 		// TODO Auto-generated method stub
 		float answer = add(2,43);
 		System.out.println(answer);
+		answer = subtract(2.34f,1.3f);
+		System.out.println(answer);
+		
 
 	}
 	
@@ -13,4 +16,7 @@ public class caluculator {
 		return(a+b);
 	}
 	
+	public static float subtract(float a, float b) {
+		return(a-b);
+	}
 }
